@@ -1,6 +1,0 @@
-/home/nvidia/learn_ros/chapt2/CMakeFiles/ros2_cpp_node.dir
-/home/nvidia/learn_ros/chapt2/CMakeFiles/uninstall.dir
-/home/nvidia/learn_ros/chapt2/CMakeFiles/ros2_cpp_uninstall.dir
-/home/nvidia/learn_ros/chapt2/CMakeFiles/test.dir
-/home/nvidia/learn_ros/chapt2/CMakeFiles/edit_cache.dir
-/home/nvidia/learn_ros/chapt2/CMakeFiles/rebuild_cache.dir
