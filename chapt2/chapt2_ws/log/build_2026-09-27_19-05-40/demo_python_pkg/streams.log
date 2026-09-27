@@ -1,0 +1,29 @@
+[0.733s] Invoking command in '/home/nvidia/learn_ros/chapt2/chapt2_ws/src/demo_python_pkg': AMENT_PREFIX_PATH=/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg PYTHONPATH=/home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_python_pkg/build install --record /home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_python_pkg/install.log --install-scripts $base/lib/demo_python_pkg --single-version-externally-managed install_data
+[0.852s] running egg_info
+[0.852s] writing ../../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+[0.858s] writing dependency_links to ../../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+[0.858s] writing entry points to ../../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+[0.858s] writing requirements to ../../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+[0.858s] writing top-level names to ../../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+[0.860s] reading manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.860s] adding license file 'LICENSE'
+[0.860s] writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.860s] running build
+[0.860s] running build_py
+[0.860s] running install
+[0.861s] running install_lib
+[0.861s] byte-compiling /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/person_node.py to person_node.cpython-310.pyc
+[0.862s] running install_data
+[0.862s]   File "/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/person_node.py", line 6
+[0.862s]     def eat(self),food_name: str:
+[0.862s]                  ^
+[0.862s] SyntaxError: expected ':'
+[0.862s] 
+[0.862s] running install_egg_info
+[0.863s] removing '/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.863s] Copying ../../build/demo_python_pkg/demo_python_pkg.egg-info to /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info
+[0.864s] running install_scripts
+[0.876s] Installing person_node script to /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[0.876s] Installing python_node script to /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[0.877s] writing list of installed files to '/home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_python_pkg/install.log'
+[0.890s] Invoked command in '/home/nvidia/learn_ros/chapt2/chapt2_ws/src/demo_python_pkg' returned '0': AMENT_PREFIX_PATH=/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg PYTHONPATH=/home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_python_pkg/build install --record /home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_python_pkg/install.log --install-scripts $base/lib/demo_python_pkg --single-version-externally-managed install_data

@@ -1,0 +1,268 @@
+[0.000000] (-) TimerEvent: {}
+[0.001163] (demo_cpp_pkg) JobQueued: {'identifier': 'demo_cpp_pkg', 'dependencies': OrderedDict()}
+[0.001492] (demo_python_pkg) JobQueued: {'identifier': 'demo_python_pkg', 'dependencies': OrderedDict([('demo_cpp_pkg', '/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg')])}
+[0.001813] (demo_cpp_pkg) JobStarted: {'identifier': 'demo_cpp_pkg'}
+[0.010063] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'cmake'}
+[0.010658] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'build'}
+[0.011404] (demo_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_cpp_pkg', '--', '-j24', '-l24'], 'cwd': '/home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_cpp_pkg', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('GIT_ASKPASS', '/home/nvidia/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/learn_ros'), ('TERM_PROGRAM_VERSION', '1.139.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-aaef73b8-cf19-4684-a46f-046b75bf6618.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/nvidia/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/nvidia/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/nvidia/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'ubuntu-22.04.5'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nvidia/learn_ros/chapt2/chapt2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nvidia'), ('NAME', 'LAPTOP-SARQANFQ'), ('WSL_INTEROP', '/run/WSL/422_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nvidia/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/nvidia/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/nvidia/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/phpstudy_pro/Extensions/php/php7.3.4nts:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/d/VMware/bin/:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/c/mingw64/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/VS Code/c/mingw64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Git/Git/cmd:/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/d/Anaconda:/mnt/d/Anaconda/Library/mingw-w64/bin:/mnt/d/Anaconda/Library/usr/bin:/mnt/d/Anaconda/Library/bin:/mnt/d/Anaconda/Scripts:/mnt/d/python/Scripts/:/mnt/d/python/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/d/VS Code/VSC/Microsoft VS Code/bin:/mnt/d/TensorRT/TensorRT-10.12.0.36.Windows.win10.cuda-12.9/TensorRT-10.12.0.36/bin:/mnt/d/Java/jdk_21/bin:/mnt/d/Java/jdk_21/jre/bin:/mnt/d/MatLab/Software/runtime/win64:/mnt/d/MatLab/Software/bin:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/d/Fastgithub_win-x64/fastgithub_win-x64:/mnt/d/Cmake/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files/JKI/VI Package Manager/support:/mnt/c/Program Files/WSL/:/mnt/c/Program Files/usbipd-win/:/mnt/d/phpstudy_pro/Extensions/php/php7.3.4nts:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/d/VMware/bin:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/d/c/mingw64/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit:/mnt/d/VS Code/c/mingw64/bin:/mnt/c/Program Files/dotnet:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2:/mnt/c/Program Files (x86)/NVIDIA Corporati:/mnt/d/VS Code/Microsoft VS Code/bin:/snap/bin:/home/nvidia/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/nvidia/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-6c96759bbf5c6e6d.txt'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/nvidia/.vscode-server/data/User/workspaceStorage/3a468c95dcbcc7fdc9784b42fa14ed32/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cfd90597f9.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_python_pkg:/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_cpp_pkg'), ('COPILOT_DEBUG_NONCE', '40fccf5f202e398ba66261f1643ba4ae'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg:/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.033184] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099262] (-) TimerEvent: {}
+[0.126760] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199609] (-) TimerEvent: {}
+[0.300389] (-) TimerEvent: {}
+[0.400906] (-) TimerEvent: {}
+[0.501522] (-) TimerEvent: {}
+[0.602033] (-) TimerEvent: {}
+[0.603790] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.605478] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.610699] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.619405] (demo_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.628883] (demo_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.653445] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.654319] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.702228] (-) TimerEvent: {}
+[0.802682] (-) TimerEvent: {}
+[0.903200] (-) TimerEvent: {}
+[1.003606] (-) TimerEvent: {}
+[1.103981] (-) TimerEvent: {}
+[1.204360] (-) TimerEvent: {}
+[1.304707] (-) TimerEvent: {}
+[1.405097] (-) TimerEvent: {}
+[1.505421] (-) TimerEvent: {}
+[1.605844] (-) TimerEvent: {}
+[1.706204] (-) TimerEvent: {}
+[1.806542] (-) TimerEvent: {}
+[1.906962] (-) TimerEvent: {}
+[2.007292] (-) TimerEvent: {}
+[2.107649] (-) TimerEvent: {}
+[2.207952] (-) TimerEvent: {}
+[2.308309] (-) TimerEvent: {}
+[2.408740] (-) TimerEvent: {}
+[2.509163] (-) TimerEvent: {}
+[2.609668] (-) TimerEvent: {}
+[2.709992] (-) TimerEvent: {}
+[2.810305] (-) TimerEvent: {}
+[2.910632] (-) TimerEvent: {}
+[3.010971] (-) TimerEvent: {}
+[3.111286] (-) TimerEvent: {}
+[3.211646] (-) TimerEvent: {}
+[3.312084] (-) TimerEvent: {}
+[3.412456] (-) TimerEvent: {}
+[3.512824] (-) TimerEvent: {}
+[3.613184] (-) TimerEvent: {}
+[3.713538] (-) TimerEvent: {}
+[3.813858] (-) TimerEvent: {}
+[3.914181] (-) TimerEvent: {}
+[4.014642] (-) TimerEvent: {}
+[4.115011] (-) TimerEvent: {}
+[4.215324] (-) TimerEvent: {}
+[4.315632] (-) TimerEvent: {}
+[4.415944] (-) TimerEvent: {}
+[4.516262] (-) TimerEvent: {}
+[4.616561] (-) TimerEvent: {}
+[4.716929] (-) TimerEvent: {}
+[4.817353] (-) TimerEvent: {}
+[4.917724] (-) TimerEvent: {}
+[5.018056] (-) TimerEvent: {}
+[5.118372] (-) TimerEvent: {}
+[5.218692] (-) TimerEvent: {}
+[5.319032] (-) TimerEvent: {}
+[5.419514] (-) TimerEvent: {}
+[5.519913] (-) TimerEvent: {}
+[5.620314] (-) TimerEvent: {}
+[5.720713] (-) TimerEvent: {}
+[5.821238] (-) TimerEvent: {}
+[5.921576] (-) TimerEvent: {}
+[6.022011] (-) TimerEvent: {}
+[6.122538] (-) TimerEvent: {}
+[6.222906] (-) TimerEvent: {}
+[6.323375] (-) TimerEvent: {}
+[6.423687] (-) TimerEvent: {}
+[6.524057] (-) TimerEvent: {}
+[6.624365] (-) TimerEvent: {}
+[6.724693] (-) TimerEvent: {}
+[6.825004] (-) TimerEvent: {}
+[6.925358] (-) TimerEvent: {}
+[7.025822] (-) TimerEvent: {}
+[7.126265] (-) TimerEvent: {}
+[7.227007] (-) TimerEvent: {}
+[7.327649] (-) TimerEvent: {}
+[7.428136] (-) TimerEvent: {}
+[7.528600] (-) TimerEvent: {}
+[7.628916] (-) TimerEvent: {}
+[7.729287] (-) TimerEvent: {}
+[7.829624] (-) TimerEvent: {}
+[7.929986] (-) TimerEvent: {}
+[8.030290] (-) TimerEvent: {}
+[8.130615] (-) TimerEvent: {}
+[8.230961] (-) TimerEvent: {}
+[8.331343] (-) TimerEvent: {}
+[8.431755] (-) TimerEvent: {}
+[8.532134] (-) TimerEvent: {}
+[8.632531] (-) TimerEvent: {}
+[8.732860] (-) TimerEvent: {}
+[8.833181] (-) TimerEvent: {}
+[8.933526] (-) TimerEvent: {}
+[9.033846] (-) TimerEvent: {}
+[9.134198] (-) TimerEvent: {}
+[9.234755] (-) TimerEvent: {}
+[9.335151] (-) TimerEvent: {}
+[9.435437] (-) TimerEvent: {}
+[9.535718] (-) TimerEvent: {}
+[9.636050] (-) TimerEvent: {}
+[9.736372] (-) TimerEvent: {}
+[9.836837] (-) TimerEvent: {}
+[9.937267] (-) TimerEvent: {}
+[10.037580] (-) TimerEvent: {}
+[10.137889] (-) TimerEvent: {}
+[10.238232] (-) TimerEvent: {}
+[10.338522] (-) TimerEvent: {}
+[10.438867] (-) TimerEvent: {}
+[10.539250] (-) TimerEvent: {}
+[10.639800] (-) TimerEvent: {}
+[10.740389] (-) TimerEvent: {}
+[10.840772] (-) TimerEvent: {}
+[10.941253] (-) TimerEvent: {}
+[11.041571] (-) TimerEvent: {}
+[11.141954] (-) TimerEvent: {}
+[11.242324] (-) TimerEvent: {}
+[11.342737] (-) TimerEvent: {}
+[11.443139] (-) TimerEvent: {}
+[11.543459] (-) TimerEvent: {}
+[11.643799] (-) TimerEvent: {}
+[11.744130] (-) TimerEvent: {}
+[11.844561] (-) TimerEvent: {}
+[11.944951] (-) TimerEvent: {}
+[12.045507] (-) TimerEvent: {}
+[12.146007] (-) TimerEvent: {}
+[12.246326] (-) TimerEvent: {}
+[12.346718] (-) TimerEvent: {}
+[12.447109] (-) TimerEvent: {}
+[12.547459] (-) TimerEvent: {}
+[12.647814] (-) TimerEvent: {}
+[12.748176] (-) TimerEvent: {}
+[12.848836] (-) TimerEvent: {}
+[12.949241] (-) TimerEvent: {}
+[13.049576] (-) TimerEvent: {}
+[13.149895] (-) TimerEvent: {}
+[13.250262] (-) TimerEvent: {}
+[13.350638] (-) TimerEvent: {}
+[13.451047] (-) TimerEvent: {}
+[13.551415] (-) TimerEvent: {}
+[13.651768] (-) TimerEvent: {}
+[13.752282] (-) TimerEvent: {}
+[13.853057] (-) TimerEvent: {}
+[13.953588] (-) TimerEvent: {}
+[14.053988] (-) TimerEvent: {}
+[14.154462] (-) TimerEvent: {}
+[14.254998] (-) TimerEvent: {}
+[14.355334] (-) TimerEvent: {}
+[14.455656] (-) TimerEvent: {}
+[14.556069] (-) TimerEvent: {}
+[14.656431] (-) TimerEvent: {}
+[14.756768] (-) TimerEvent: {}
+[14.857146] (-) TimerEvent: {}
+[14.957512] (-) TimerEvent: {}
+[15.057891] (-) TimerEvent: {}
+[15.158266] (-) TimerEvent: {}
+[15.258652] (-) TimerEvent: {}
+[15.358987] (-) TimerEvent: {}
+[15.459369] (-) TimerEvent: {}
+[15.559915] (-) TimerEvent: {}
+[15.660428] (-) TimerEvent: {}
+[15.760967] (-) TimerEvent: {}
+[15.861466] (-) TimerEvent: {}
+[15.961873] (-) TimerEvent: {}
+[16.062318] (-) TimerEvent: {}
+[16.099088] (demo_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[16.133220] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[16.162509] (-) TimerEvent: {}
+[16.188471] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[16.188675] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[16.188710] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[16.189503] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[16.191990] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[16.192181] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[16.192409] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[16.192986] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.203507] (demo_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[16.207811] (demo_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_cpp_pkg\n'}
+[16.229690] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target learn_auto\x1b[0m\n'}
+[16.229987] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node\x1b[0m\n'}
+[16.230087] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target person_node\x1b[0m\n'}
+[16.237349] (demo_cpp_pkg) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/learn_share_ptr.dir/src/learn_share_ptr.cpp.o\x1b[0m\n'}
+[16.239823] (demo_cpp_pkg) StdoutLine: {'line': b'[ 37%] Built target learn_auto\n'}
+[16.241460] (demo_cpp_pkg) StdoutLine: {'line': b'[ 62%] Built target person_node\n'}
+[16.242440] (demo_cpp_pkg) StdoutLine: {'line': b'[ 87%] Built target cpp_node\n'}
+[16.262821] (-) TimerEvent: {}
+[16.363315] (-) TimerEvent: {}
+[16.463810] (-) TimerEvent: {}
+[16.540759] (demo_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable learn_share_ptr\x1b[0m\n'}
+[16.563939] (-) TimerEvent: {}
+[16.664489] (-) TimerEvent: {}
+[16.764905] (-) TimerEvent: {}
+[16.865239] (-) TimerEvent: {}
+[16.965557] (-) TimerEvent: {}
+[17.014006] (demo_cpp_pkg) StdoutLine: {'line': b'[100%] Built target learn_share_ptr\n'}
+[17.022292] (demo_cpp_pkg) CommandEnded: {'returncode': 0}
+[17.023207] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'install'}
+[17.029492] (demo_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_cpp_pkg'], 'cwd': '/home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_cpp_pkg', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('GIT_ASKPASS', '/home/nvidia/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/learn_ros'), ('TERM_PROGRAM_VERSION', '1.139.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-aaef73b8-cf19-4684-a46f-046b75bf6618.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/nvidia/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/nvidia/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/nvidia/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'ubuntu-22.04.5'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nvidia/learn_ros/chapt2/chapt2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nvidia'), ('NAME', 'LAPTOP-SARQANFQ'), ('WSL_INTEROP', '/run/WSL/422_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nvidia/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/nvidia/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/nvidia/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/phpstudy_pro/Extensions/php/php7.3.4nts:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/d/VMware/bin/:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/c/mingw64/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/VS Code/c/mingw64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Git/Git/cmd:/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/d/Anaconda:/mnt/d/Anaconda/Library/mingw-w64/bin:/mnt/d/Anaconda/Library/usr/bin:/mnt/d/Anaconda/Library/bin:/mnt/d/Anaconda/Scripts:/mnt/d/python/Scripts/:/mnt/d/python/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/d/VS Code/VSC/Microsoft VS Code/bin:/mnt/d/TensorRT/TensorRT-10.12.0.36.Windows.win10.cuda-12.9/TensorRT-10.12.0.36/bin:/mnt/d/Java/jdk_21/bin:/mnt/d/Java/jdk_21/jre/bin:/mnt/d/MatLab/Software/runtime/win64:/mnt/d/MatLab/Software/bin:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/d/Fastgithub_win-x64/fastgithub_win-x64:/mnt/d/Cmake/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files/JKI/VI Package Manager/support:/mnt/c/Program Files/WSL/:/mnt/c/Program Files/usbipd-win/:/mnt/d/phpstudy_pro/Extensions/php/php7.3.4nts:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/d/VMware/bin:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/d/c/mingw64/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit:/mnt/d/VS Code/c/mingw64/bin:/mnt/c/Program Files/dotnet:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2:/mnt/c/Program Files (x86)/NVIDIA Corporati:/mnt/d/VS Code/Microsoft VS Code/bin:/snap/bin:/home/nvidia/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/nvidia/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-6c96759bbf5c6e6d.txt'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/nvidia/.vscode-server/data/User/workspaceStorage/3a468c95dcbcc7fdc9784b42fa14ed32/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cfd90597f9.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_python_pkg:/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_cpp_pkg'), ('COPILOT_DEBUG_NONCE', '40fccf5f202e398ba66261f1643ba4ae'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg:/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[17.034343] (demo_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.034603] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node\n'}
+[17.034667] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node\n'}
+[17.034819] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_auto\n'}
+[17.034860] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_share_ptr\n'}
+[17.034973] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg\n'}
+[17.035124] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg\n'}
+[17.035233] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[17.035271] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[17.035377] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh\n'}
+[17.035426] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv\n'}
+[17.035529] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash\n'}
+[17.035672] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh\n'}
+[17.035722] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh\n'}
+[17.035840] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv\n'}
+[17.035943] (demo_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv\n'}
+[17.036001] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg\n'}
+[17.036086] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake\n'}
+[17.036120] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake\n'}
+[17.036155] (demo_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml\n'}
+[17.037888] (demo_cpp_pkg) CommandEnded: {'returncode': 0}
+[17.050579] (demo_cpp_pkg) JobEnded: {'identifier': 'demo_cpp_pkg', 'rc': 0}
+[17.051960] (demo_python_pkg) JobStarted: {'identifier': 'demo_python_pkg'}
+[17.065737] (-) TimerEvent: {}
+[17.166046] (-) TimerEvent: {}
+[17.266403] (-) TimerEvent: {}
+[17.366741] (-) TimerEvent: {}
+[17.467054] (-) TimerEvent: {}
+[17.567381] (-) TimerEvent: {}
+[17.667707] (-) TimerEvent: {}
+[17.768086] (-) TimerEvent: {}
+[17.804538] (demo_python_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/demo_python_pkg', 'build', '--build-base', '/home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_python_pkg/build', 'install', '--record', '/home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_python_pkg/install.log', '--install-scripts', '$base/lib/demo_python_pkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nvidia/learn_ros/chapt2/chapt2_ws/src/demo_python_pkg', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('GIT_ASKPASS', '/home/nvidia/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/learn_ros'), ('TERM_PROGRAM_VERSION', '1.139.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-aaef73b8-cf19-4684-a46f-046b75bf6618.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/nvidia/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/nvidia/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/nvidia/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'ubuntu-22.04.5'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nvidia/learn_ros/chapt2/chapt2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nvidia'), ('NAME', 'LAPTOP-SARQANFQ'), ('WSL_INTEROP', '/run/WSL/422_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nvidia/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/nvidia/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/nvidia/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/phpstudy_pro/Extensions/php/php7.3.4nts:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/d/VMware/bin/:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/c/mingw64/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/VS Code/c/mingw64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Git/Git/cmd:/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/d/Anaconda:/mnt/d/Anaconda/Library/mingw-w64/bin:/mnt/d/Anaconda/Library/usr/bin:/mnt/d/Anaconda/Library/bin:/mnt/d/Anaconda/Scripts:/mnt/d/python/Scripts/:/mnt/d/python/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/d/VS Code/VSC/Microsoft VS Code/bin:/mnt/d/TensorRT/TensorRT-10.12.0.36.Windows.win10.cuda-12.9/TensorRT-10.12.0.36/bin:/mnt/d/Java/jdk_21/bin:/mnt/d/Java/jdk_21/jre/bin:/mnt/d/MatLab/Software/runtime/win64:/mnt/d/MatLab/Software/bin:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/d/Fastgithub_win-x64/fastgithub_win-x64:/mnt/d/Cmake/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files/JKI/VI Package Manager/support:/mnt/c/Program Files/WSL/:/mnt/c/Program Files/usbipd-win/:/mnt/d/phpstudy_pro/Extensions/php/php7.3.4nts:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/d/VMware/bin:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/d/c/mingw64/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit:/mnt/d/VS Code/c/mingw64/bin:/mnt/c/Program Files/dotnet:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2:/mnt/c/Program Files (x86)/NVIDIA Corporati:/mnt/d/VS Code/Microsoft VS Code/bin:/snap/bin:/home/nvidia/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/nvidia/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-6c96759bbf5c6e6d.txt'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/nvidia/.vscode-server/data/User/workspaceStorage/3a468c95dcbcc7fdc9784b42fa14ed32/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cfd90597f9.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_python_pkg:/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_python_pkg'), ('COPILOT_DEBUG_NONCE', '40fccf5f202e398ba66261f1643ba4ae'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages:/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[17.868205] (-) TimerEvent: {}
+[17.932446] (demo_python_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[17.933014] (demo_python_pkg) StdoutLine: {'line': b'writing ../../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO\n'}
+[17.933260] (demo_python_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt\n'}
+[17.933389] (demo_python_pkg) StdoutLine: {'line': b'writing entry points to ../../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt\n'}
+[17.933622] (demo_python_pkg) StdoutLine: {'line': b'writing requirements to ../../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt\n'}
+[17.933703] (demo_python_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt\n'}
+[17.934979] (demo_python_pkg) StdoutLine: {'line': b"reading manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'\n"}
+[17.935290] (demo_python_pkg) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[17.935598] (demo_python_pkg) StdoutLine: {'line': b"writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'\n"}
+[17.935751] (demo_python_pkg) StdoutLine: {'line': b'running build\n'}
+[17.935819] (demo_python_pkg) StdoutLine: {'line': b'running build_py\n'}
+[17.935993] (demo_python_pkg) StdoutLine: {'line': b'running install\n'}
+[17.936272] (demo_python_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[17.936996] (demo_python_pkg) StdoutLine: {'line': b'running install_data\n'}
+[17.937101] (demo_python_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[17.938185] (demo_python_pkg) StdoutLine: {'line': b"removing '/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[17.938458] (demo_python_pkg) StdoutLine: {'line': b'Copying ../../build/demo_python_pkg/demo_python_pkg.egg-info to /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info\n'}
+[17.939236] (demo_python_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[17.952962] (demo_python_pkg) StdoutLine: {'line': b'Installing person_node script to /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg\n'}
+[17.953169] (demo_python_pkg) StdoutLine: {'line': b'Installing python_node script to /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg\n'}
+[17.953225] (demo_python_pkg) StdoutLine: {'line': b'Installing writer_node script to /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg\n'}
+[17.953351] (demo_python_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_python_pkg/install.log'\n"}
+[17.966903] (demo_python_pkg) CommandEnded: {'returncode': 0}
+[17.968339] (-) TimerEvent: {}
+[17.971729] (demo_python_pkg) JobEnded: {'identifier': 'demo_python_pkg', 'rc': 0}
+[17.972573] (-) EventReactorShutdown: {}

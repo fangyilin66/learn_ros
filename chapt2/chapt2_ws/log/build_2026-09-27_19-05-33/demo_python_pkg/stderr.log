@@ -1,0 +1,5 @@
+  File "/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/person_node.py", line 6
+    def eat(self),food_name: str:
+                 ^
+SyntaxError: expected ':'
+

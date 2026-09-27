@@ -7,4 +7,6 @@ def main():
     node.get_logger().info('你好 Python 节点！')
     node.get_logger().warn('你好 Python 节点！')
     rclpy.spin(node)
+    print('-----')
+    node.destroy_node()
     rclpy.shutdown()

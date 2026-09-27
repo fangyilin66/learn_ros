@@ -13,6 +13,11 @@ find_package(rclcpp REQUIRED) # 直接查找到对应的头文件和库文件
 # find_package(<dependency> REQUIRED)
 
 add_executable(cpp_node src/cpp_node.cpp)
+add_executable(person_node src/person_node.cpp)
+add_executable(learn_auto src/learn_auto.cpp)
+add_executable(learn_share_ptr src/learn_share_ptr.cpp)
+add_executable(learn_lambda src/learn_lambda.cpp)
+add_executable(learn_functional src/learn_functional.cpp)
 
 # message(STATUS ${rclcpp_INCLUDE_DIRS}) # 头文件及rclcpp依赖的头文件
 # message(STATUS ${rclcpp_LIBRARIES}) # 库文件及rclcpp依赖的库文件
@@ -20,8 +25,9 @@ add_executable(cpp_node src/cpp_node.cpp)
 # target_include_directories(ros2_cpp_node PUBLIC ${rclcpp_INCLUDE_DIRS}) # 头文件包含
 # target_link_libraries(ros2_cpp_node ${rclcpp_LIBRARIES}) # 库文件链接
 ament_target_dependencies(cpp_node rclcpp) # 头文件包含和库文件链接
+ament_target_dependencies(person_node rclcpp)
 
-install(TARGETS cpp_node
+install(TARGETS cpp_node person_node learn_auto learn_share_ptr learn_lambda learn_functional
  DESTINATION lib/${PROJECT_NAME}
 )
 
