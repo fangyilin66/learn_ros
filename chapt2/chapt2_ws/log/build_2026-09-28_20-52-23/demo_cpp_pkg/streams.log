@@ -1,0 +1,44 @@
+[0.013s] Invoking command in '/home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j24 -l24
+[0.121s] [35m[1mConsolidate compiler generated dependencies of target learn_auto[0m
+[0.122s] [35m[1mConsolidate compiler generated dependencies of target learn_thread[0m
+[0.123s] [35m[1mConsolidate compiler generated dependencies of target learn_lambda[0m
+[0.123s] [35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[0.123s] [35m[1mConsolidate compiler generated dependencies of target learn_functional[0m
+[0.124s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.125s] [35m[1mConsolidate compiler generated dependencies of target learn_share_ptr[0m
+[0.134s] [ 35%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[0.134s] [ 35%] Built target learn_auto
+[0.134s] [ 35%] Built target learn_lambda
+[0.134s] [ 50%] Built target learn_share_ptr
+[0.134s] [ 64%] Built target learn_functional
+[0.137s] [ 78%] Built target person_node
+[0.138s] [ 92%] Built target cpp_node
+[3.881s] [100%] [32m[1mLinking CXX executable learn_thread[0m
+[4.415s] [100%] Built target learn_thread
+[4.423s] Invoked command in '/home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j24 -l24
+[4.431s] Invoking command in '/home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_cpp_pkg
+[4.436s] -- Install configuration: ""
+[4.436s] -- Installing: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[4.437s] -- Set runtime path of "/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node" to ""
+[4.437s] -- Installing: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node
+[4.437s] -- Set runtime path of "/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node" to ""
+[4.437s] -- Installing: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_auto
+[4.437s] -- Installing: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_share_ptr
+[4.438s] -- Installing: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_lambda
+[4.438s] -- Installing: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_functional
+[4.438s] -- Up-to-date: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[4.438s] -- Installing: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[4.438s] -- Up-to-date: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[4.439s] -- Installing: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[4.439s] -- Up-to-date: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[4.439s] -- Installing: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[4.439s] -- Up-to-date: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[4.439s] -- Up-to-date: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[4.439s] -- Up-to-date: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[4.439s] -- Installing: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[4.439s] -- Installing: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[4.440s] -- Up-to-date: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[4.440s] -- Up-to-date: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[4.440s] -- Up-to-date: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[4.440s] -- Up-to-date: /home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[4.441s] Invoked command in '/home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_cpp_pkg

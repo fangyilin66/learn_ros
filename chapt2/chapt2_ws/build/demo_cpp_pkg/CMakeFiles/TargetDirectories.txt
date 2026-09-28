@@ -6,6 +6,7 @@
 /home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles/learn_share_ptr.dir
 /home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles/learn_lambda.dir
 /home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles/learn_functional.dir
+/home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles/learn_thread.dir
 /home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles/test.dir
 /home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles/edit_cache.dir
 /home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_cpp_pkg/CMakeFiles/rebuild_cache.dir

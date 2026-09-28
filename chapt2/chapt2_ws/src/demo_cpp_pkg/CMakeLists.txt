@@ -11,6 +11,8 @@ find_package(rclcpp REQUIRED) # 直接查找到对应的头文件和库文件
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
+include_directories(include) # 包含include头文件目录
+
 
 add_executable(cpp_node src/cpp_node.cpp)
 add_executable(person_node src/person_node.cpp)
@@ -18,6 +20,7 @@ add_executable(learn_auto src/learn_auto.cpp)
 add_executable(learn_share_ptr src/learn_share_ptr.cpp)
 add_executable(learn_lambda src/learn_lambda.cpp)
 add_executable(learn_functional src/learn_functional.cpp)
+add_executable(learn_thread src/learn_thread.cpp)
 
 # message(STATUS ${rclcpp_INCLUDE_DIRS}) # 头文件及rclcpp依赖的头文件
 # message(STATUS ${rclcpp_LIBRARIES}) # 库文件及rclcpp依赖的库文件
@@ -27,7 +30,7 @@ add_executable(learn_functional src/learn_functional.cpp)
 ament_target_dependencies(cpp_node rclcpp) # 头文件包含和库文件链接
 ament_target_dependencies(person_node rclcpp)
 
-install(TARGETS cpp_node person_node learn_auto learn_share_ptr learn_lambda learn_functional
+install(TARGETS cpp_node person_node learn_auto learn_share_ptr learn_lambda learn_functional learn_thread
  DESTINATION lib/${PROJECT_NAME}
 )
 

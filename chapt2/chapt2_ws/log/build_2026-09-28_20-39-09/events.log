@@ -1,0 +1,269 @@
+[0.000000] (-) TimerEvent: {}
+[0.000436] (demo_cpp_pkg) JobQueued: {'identifier': 'demo_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000489] (demo_python_pkg) JobQueued: {'identifier': 'demo_python_pkg', 'dependencies': OrderedDict([('demo_cpp_pkg', '/home/nvidia/learn_ros/chapt2/chapt2_ws/install/demo_cpp_pkg')])}
+[0.000930] (demo_cpp_pkg) JobStarted: {'identifier': 'demo_cpp_pkg'}
+[0.013714] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'cmake'}
+[0.015712] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'build'}
+[0.016394] (demo_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_cpp_pkg', '--', '-j24', '-l24'], 'cwd': '/home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_cpp_pkg', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('GIT_ASKPASS', '/home/nvidia/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/nvidia'), ('TERM_PROGRAM_VERSION', '1.139.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6e7edcce-2ac8-4e68-8094-7ab28fde68dc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/nvidia/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/nvidia/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/nvidia/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'ubuntu-22.04.5'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nvidia'), ('NAME', 'LAPTOP-SARQANFQ'), ('WSL_INTEROP', '/run/WSL/433_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nvidia/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/nvidia/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/nvidia/.vscode-server/bin/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/phpstudy_pro/Extensions/php/php7.3.4nts:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/d/VMware/bin/:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/c/mingw64/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/VS Code/c/mingw64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Git/Git/cmd:/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/d/Anaconda:/mnt/d/Anaconda/Library/mingw-w64/bin:/mnt/d/Anaconda/Library/usr/bin:/mnt/d/Anaconda/Library/bin:/mnt/d/Anaconda/Scripts:/mnt/d/python/Scripts/:/mnt/d/python/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/d/VS Code/VSC/Microsoft VS Code/bin:/mnt/d/TensorRT/TensorRT-10.12.0.36.Windows.win10.cuda-12.9/TensorRT-10.12.0.36/bin:/mnt/d/Java/jdk_21/bin:/mnt/d/Java/jdk_21/jre/bin:/mnt/d/MatLab/Software/runtime/win64:/mnt/d/MatLab/Software/bin:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/d/Fastgithub_win-x64/fastgithub_win-x64:/mnt/d/Cmake/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files/JKI/VI Package Manager/support:/mnt/c/Program Files/WSL/:/mnt/c/Program Files/usbipd-win/:/mnt/d/phpstudy_pro/Extensions/php/php7.3.4nts:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/d/VMware/bin:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/d/c/mingw64/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit:/mnt/d/VS Code/c/mingw64/bin:/mnt/c/Program Files/dotnet:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2:/mnt/c/Program Files (x86)/NVIDIA Corporati:/mnt/d/VS Code/Microsoft VS Code/bin:/snap/bin:/home/nvidia/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/nvidia/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-f20d3fc62db68f42.txt'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/nvidia/.vscode-server/data/User/workspaceStorage/3a468c95dcbcc7fdc9784b42fa14ed32/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cfd90597f9.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_cpp_pkg'), ('COPILOT_DEBUG_NONCE', '40fccf5f202e398ba66261f1643ba4ae'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.103063] (-) TimerEvent: {}
+[0.129518] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.203869] (-) TimerEvent: {}
+[0.244556] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.305180] (-) TimerEvent: {}
+[0.413834] (-) TimerEvent: {}
+[0.516951] (-) TimerEvent: {}
+[0.622805] (-) TimerEvent: {}
+[0.628313] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.631970] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.641666] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.655059] (demo_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.669722] (demo_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.710074] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.712513] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.723596] (-) TimerEvent: {}
+[0.831989] (-) TimerEvent: {}
+[0.940533] (-) TimerEvent: {}
+[1.041068] (-) TimerEvent: {}
+[1.149020] (-) TimerEvent: {}
+[1.257249] (-) TimerEvent: {}
+[1.365846] (-) TimerEvent: {}
+[1.474470] (-) TimerEvent: {}
+[1.576164] (-) TimerEvent: {}
+[1.684667] (-) TimerEvent: {}
+[1.793302] (-) TimerEvent: {}
+[1.901900] (-) TimerEvent: {}
+[2.010553] (-) TimerEvent: {}
+[2.115245] (-) TimerEvent: {}
+[2.223361] (-) TimerEvent: {}
+[2.331755] (-) TimerEvent: {}
+[2.436207] (-) TimerEvent: {}
+[2.544724] (-) TimerEvent: {}
+[2.652246] (-) TimerEvent: {}
+[2.760735] (-) TimerEvent: {}
+[2.869324] (-) TimerEvent: {}
+[2.977904] (-) TimerEvent: {}
+[3.079223] (-) TimerEvent: {}
+[3.187599] (-) TimerEvent: {}
+[3.295682] (-) TimerEvent: {}
+[3.404091] (-) TimerEvent: {}
+[3.512539] (-) TimerEvent: {}
+[3.616403] (-) TimerEvent: {}
+[3.725096] (-) TimerEvent: {}
+[3.833609] (-) TimerEvent: {}
+[3.942226] (-) TimerEvent: {}
+[4.050886] (-) TimerEvent: {}
+[4.157902] (-) TimerEvent: {}
+[4.266168] (-) TimerEvent: {}
+[4.374810] (-) TimerEvent: {}
+[4.483156] (-) TimerEvent: {}
+[4.583883] (-) TimerEvent: {}
+[4.692429] (-) TimerEvent: {}
+[4.801011] (-) TimerEvent: {}
+[4.909311] (-) TimerEvent: {}
+[5.017917] (-) TimerEvent: {}
+[5.121265] (-) TimerEvent: {}
+[5.229558] (-) TimerEvent: {}
+[5.338181] (-) TimerEvent: {}
+[5.447086] (-) TimerEvent: {}
+[5.555470] (-) TimerEvent: {}
+[5.661592] (-) TimerEvent: {}
+[5.770241] (-) TimerEvent: {}
+[5.878902] (-) TimerEvent: {}
+[5.987363] (-) TimerEvent: {}
+[6.090370] (-) TimerEvent: {}
+[6.196369] (-) TimerEvent: {}
+[6.296738] (-) TimerEvent: {}
+[6.397185] (-) TimerEvent: {}
+[6.501385] (-) TimerEvent: {}
+[6.601824] (-) TimerEvent: {}
+[6.710454] (-) TimerEvent: {}
+[6.810825] (-) TimerEvent: {}
+[6.911251] (-) TimerEvent: {}
+[7.011741] (-) TimerEvent: {}
+[7.112373] (-) TimerEvent: {}
+[7.212928] (-) TimerEvent: {}
+[7.313573] (-) TimerEvent: {}
+[7.419022] (-) TimerEvent: {}
+[7.527479] (-) TimerEvent: {}
+[7.635971] (-) TimerEvent: {}
+[7.744538] (-) TimerEvent: {}
+[7.845049] (-) TimerEvent: {}
+[7.946102] (-) TimerEvent: {}
+[8.046913] (-) TimerEvent: {}
+[8.149294] (-) TimerEvent: {}
+[8.249870] (-) TimerEvent: {}
+[8.351819] (-) TimerEvent: {}
+[8.459651] (-) TimerEvent: {}
+[8.567491] (-) TimerEvent: {}
+[8.669271] (-) TimerEvent: {}
+[8.771903] (-) TimerEvent: {}
+[8.874765] (-) TimerEvent: {}
+[8.977834] (-) TimerEvent: {}
+[9.080480] (-) TimerEvent: {}
+[9.183510] (-) TimerEvent: {}
+[9.285605] (-) TimerEvent: {}
+[9.386144] (-) TimerEvent: {}
+[9.494836] (-) TimerEvent: {}
+[9.603246] (-) TimerEvent: {}
+[9.711703] (-) TimerEvent: {}
+[9.820170] (-) TimerEvent: {}
+[9.920670] (-) TimerEvent: {}
+[10.021052] (-) TimerEvent: {}
+[10.123329] (-) TimerEvent: {}
+[10.226465] (-) TimerEvent: {}
+[10.329223] (-) TimerEvent: {}
+[10.432113] (-) TimerEvent: {}
+[10.532487] (-) TimerEvent: {}
+[10.640993] (-) TimerEvent: {}
+[10.749609] (-) TimerEvent: {}
+[10.851574] (-) TimerEvent: {}
+[10.959427] (-) TimerEvent: {}
+[11.067990] (-) TimerEvent: {}
+[11.176889] (-) TimerEvent: {}
+[11.285166] (-) TimerEvent: {}
+[11.389847] (-) TimerEvent: {}
+[11.498434] (-) TimerEvent: {}
+[11.606840] (-) TimerEvent: {}
+[11.715352] (-) TimerEvent: {}
+[11.823807] (-) TimerEvent: {}
+[11.931678] (-) TimerEvent: {}
+[12.040162] (-) TimerEvent: {}
+[12.148677] (-) TimerEvent: {}
+[12.256967] (-) TimerEvent: {}
+[12.358721] (-) TimerEvent: {}
+[12.467087] (-) TimerEvent: {}
+[12.575149] (-) TimerEvent: {}
+[12.683616] (-) TimerEvent: {}
+[12.792171] (-) TimerEvent: {}
+[12.896448] (-) TimerEvent: {}
+[13.004962] (-) TimerEvent: {}
+[13.113506] (-) TimerEvent: {}
+[13.222109] (-) TimerEvent: {}
+[13.330604] (-) TimerEvent: {}
+[13.434010] (-) TimerEvent: {}
+[13.536322] (-) TimerEvent: {}
+[13.644905] (-) TimerEvent: {}
+[13.753482] (-) TimerEvent: {}
+[13.853904] (-) TimerEvent: {}
+[13.956239] (-) TimerEvent: {}
+[14.064791] (-) TimerEvent: {}
+[14.173310] (-) TimerEvent: {}
+[14.274921] (-) TimerEvent: {}
+[14.376671] (-) TimerEvent: {}
+[14.485204] (-) TimerEvent: {}
+[14.593836] (-) TimerEvent: {}
+[14.695312] (-) TimerEvent: {}
+[14.803153] (-) TimerEvent: {}
+[14.906804] (-) TimerEvent: {}
+[15.015278] (-) TimerEvent: {}
+[15.123671] (-) TimerEvent: {}
+[15.231800] (-) TimerEvent: {}
+[15.340412] (-) TimerEvent: {}
+[15.446933] (-) TimerEvent: {}
+[15.551911] (demo_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[15.552102] (-) TimerEvent: {}
+[15.611451] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[15.655024] (-) TimerEvent: {}
+[15.676651] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[15.676892] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/nvidia/learn_ros/chapt2/chapt2_ws/src/demo_cpp_pkg/include\n'}
+[15.676952] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[15.677928] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[15.679866] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.680843] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[15.686016] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[15.686123] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[15.687053] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.688956] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.711495] (demo_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[15.716054] (demo_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/nvidia/learn_ros/chapt2/chapt2_ws/build/demo_cpp_pkg\n'}
+[15.733651] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target learn_auto\x1b[0m\n'}
+[15.733991] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target learn_share_ptr\x1b[0m\n'}
+[15.734419] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target learn_lambda\x1b[0m\n'}
+[15.734524] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target learn_functional\x1b[0m\n'}
+[15.734576] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target person_node\x1b[0m\n'}
+[15.734621] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node\x1b[0m\n'}
+[15.741729] (demo_cpp_pkg) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/learn_auto.dir/src/learn_auto.cpp.o\x1b[0m\n'}
+[15.742409] (demo_cpp_pkg) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o\x1b[0m\n'}
+[15.742798] (demo_cpp_pkg) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/learn_functional.dir/src/learn_functional.cpp.o\x1b[0m\n'}
+[15.743435] (demo_cpp_pkg) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/learn_lambda.dir/src/learn_lambda.cpp.o\x1b[0m\n'}
+[15.744363] (demo_cpp_pkg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/learn_share_ptr.dir/src/learn_share_ptr.cpp.o\x1b[0m\n'}
+[15.744941] (demo_cpp_pkg) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o\x1b[0m\n'}
+[15.745984] (demo_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o\x1b[0m\n'}
+[15.755274] (-) TimerEvent: {}
+[15.856031] (-) TimerEvent: {}
+[15.964143] (-) TimerEvent: {}
+[16.000660] (demo_cpp_pkg) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX executable learn_auto\x1b[0m\n'}
+[16.065488] (-) TimerEvent: {}
+[16.117564] (demo_cpp_pkg) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable learn_share_ptr\x1b[0m\n'}
+[16.136381] (demo_cpp_pkg) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX executable learn_lambda\x1b[0m\n'}
+[16.165825] (-) TimerEvent: {}
+[16.196064] (demo_cpp_pkg) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable learn_functional\x1b[0m\n'}
+[16.266273] (-) TimerEvent: {}
+[16.373375] (-) TimerEvent: {}
+[16.481319] (-) TimerEvent: {}
+[16.530857] (demo_cpp_pkg) StdoutLine: {'line': b'[ 78%] Built target learn_auto\n'}
+[16.582722] (-) TimerEvent: {}
+[16.597507] (demo_cpp_pkg) StdoutLine: {'line': b'[ 78%] Built target learn_share_ptr\n'}
+[16.635244] (demo_cpp_pkg) StdoutLine: {'line': b'[ 78%] Built target learn_lambda\n'}
+[16.678577] (demo_cpp_pkg) StdoutLine: {'line': b'[ 78%] Built target learn_functional\n'}
+[16.683079] (-) TimerEvent: {}
+[16.784556] (-) TimerEvent: {}
+[16.830034] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/learn_ros/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:14:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[16.830337] (demo_cpp_pkg) StderrLine: {'line': b'   14 |             \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[16.830405] (demo_cpp_pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[16.830438] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/learn_ros/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:25:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[16.830473] (demo_cpp_pkg) StderrLine: {'line': b'   25 |             \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[16.830504] (demo_cpp_pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[16.831651] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/learn_ros/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.831986] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/learn_ros/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:40:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KDownload::start_download(const char [20], const char [12], main()::<lambda(const string&, const string&)>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.832353] (demo_cpp_pkg) StderrLine: {'line': b'   40 |     \x1b[01;31m\x1b[Kd.start_download("http://0.0.0.0:8000","/novel1.txt",world_count)\x1b[m\x1b[K;\n'}
+[16.832424] (demo_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.832459] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/learn_ros/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:23:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid Download::start_download(const string&, std::function<void(const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&)>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.832508] (demo_cpp_pkg) StderrLine: {'line': b'   23 |         void \x1b[01;36m\x1b[Kstart_download\x1b[m\x1b[K(const std::string& host, std::function<void(const\n'}
+[16.832541] (demo_cpp_pkg) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.832578] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/learn_ros/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:23:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 3 provided\n'}
+[16.832613] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/learn_ros/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:41:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KDownload::start_download(const char [20], const char [12], main()::<lambda(const string&, const string&)>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.832646] (demo_cpp_pkg) StderrLine: {'line': b'   41 |     \x1b[01;31m\x1b[Kd.start_download("http://0.0.0.0:8000","/novel2.txt",world_count)\x1b[m\x1b[K;\n'}
+[16.832681] (demo_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.832723] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/learn_ros/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:23:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid Download::start_download(const string&, std::function<void(const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&)>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.832755] (demo_cpp_pkg) StderrLine: {'line': b'   23 |         void \x1b[01;36m\x1b[Kstart_download\x1b[m\x1b[K(const std::string& host, std::function<void(const\n'}
+[16.832783] (demo_cpp_pkg) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.832812] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/learn_ros/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:23:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 3 provided\n'}
+[16.832840] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/learn_ros/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:42:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KDownload::start_download(const char [20], const char [12], main()::<lambda(const string&, const string&)>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.832887] (demo_cpp_pkg) StderrLine: {'line': b'   42 |     \x1b[01;31m\x1b[Kd.start_download("http://0.0.0.0:8000","/novel3.txt",world_count)\x1b[m\x1b[K;\n'}
+[16.832918] (demo_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.832946] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/learn_ros/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:23:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid Download::start_download(const string&, std::function<void(const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&)>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.832978] (demo_cpp_pkg) StderrLine: {'line': b'   23 |         void \x1b[01;36m\x1b[Kstart_download\x1b[m\x1b[K(const std::string& host, std::function<void(const\n'}
+[16.833005] (demo_cpp_pkg) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.833032] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/learn_ros/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:23:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 3 provided\n'}
+[16.885137] (-) TimerEvent: {}
+[16.985763] (-) TimerEvent: {}
+[17.086589] (-) TimerEvent: {}
+[17.187234] (-) TimerEvent: {}
+[17.287683] (-) TimerEvent: {}
+[17.388199] (-) TimerEvent: {}
+[17.495416] (-) TimerEvent: {}
+[17.603855] (-) TimerEvent: {}
+[17.712335] (-) TimerEvent: {}
+[17.820592] (-) TimerEvent: {}
+[17.832359] (demo_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/learn_thread.dir/build.make:76\xef\xbc\x9aCMakeFiles/learn_thread.dir/src/learn_thread.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[17.832618] (demo_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:305\xef\xbc\x9aCMakeFiles/learn_thread.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[17.832711] (demo_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[17.920824] (-) TimerEvent: {}
+[18.023257] (-) TimerEvent: {}
+[18.129090] (-) TimerEvent: {}
+[18.229807] (-) TimerEvent: {}
+[18.309670] (demo_cpp_pkg) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable cpp_node\x1b[0m\n'}
+[18.329402] (demo_cpp_pkg) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable person_node\x1b[0m\n'}
+[18.329919] (-) TimerEvent: {}
+[18.435191] (-) TimerEvent: {}
+[18.536996] (-) TimerEvent: {}
+[18.637589] (-) TimerEvent: {}
+[18.738050] (-) TimerEvent: {}
+[18.784863] (demo_cpp_pkg) StdoutLine: {'line': b'[ 92%] Built target cpp_node\n'}
+[18.785074] (demo_cpp_pkg) StdoutLine: {'line': b'[ 92%] Built target person_node\n'}
+[18.786019] (demo_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[18.788602] (demo_cpp_pkg) CommandEnded: {'returncode': 2}
+[18.810570] (demo_cpp_pkg) JobEnded: {'identifier': 'demo_cpp_pkg', 'rc': 2}
+[18.822701] (demo_python_pkg) JobSkipped: {'identifier': 'demo_python_pkg'}
+[18.822874] (-) EventReactorShutdown: {}
