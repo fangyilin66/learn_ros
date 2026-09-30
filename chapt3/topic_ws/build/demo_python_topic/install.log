@@ -1,5 +1,7 @@
+/home/nvidia/learn_ros/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/novel_sub_node.py
 /home/nvidia/learn_ros/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/novel_pub_node.py
 /home/nvidia/learn_ros/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/__init__.py
+/home/nvidia/learn_ros/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/__pycache__/novel_sub_node.cpython-310.pyc
 /home/nvidia/learn_ros/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/__pycache__/novel_pub_node.cpython-310.pyc
 /home/nvidia/learn_ros/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/__pycache__/__init__.cpython-310.pyc
 /home/nvidia/learn_ros/chapt3/topic_ws/install/demo_python_topic/share/ament_index/resource_index/packages/demo_python_topic
@@ -12,3 +14,4 @@
 /home/nvidia/learn_ros/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info/entry_points.txt
 /home/nvidia/learn_ros/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info/top_level.txt
 /home/nvidia/learn_ros/chapt3/topic_ws/install/demo_python_topic/lib/demo_python_topic/novel_pub_node
+/home/nvidia/learn_ros/chapt3/topic_ws/install/demo_python_topic/lib/demo_python_topic/novel_sub_node
