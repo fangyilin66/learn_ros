@@ -1,0 +1,38 @@
+[1.227s] Invoking command in '/home/nvidia/learn_ros/chapt3/topic_practice_ws/src/status_pulisher': PYTHONPATH=/home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_pulisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_pulisher build --build-base /home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_pulisher/build install --record /home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_pulisher/install.log --install-scripts $base/lib/status_pulisher --single-version-externally-managed install_data
+[1.351s] running egg_info
+[1.352s] creating ../../build/status_pulisher/status_pulisher.egg-info
+[1.352s] writing ../../build/status_pulisher/status_pulisher.egg-info/PKG-INFO
+[1.352s] writing dependency_links to ../../build/status_pulisher/status_pulisher.egg-info/dependency_links.txt
+[1.352s] writing entry points to ../../build/status_pulisher/status_pulisher.egg-info/entry_points.txt
+[1.352s] writing requirements to ../../build/status_pulisher/status_pulisher.egg-info/requires.txt
+[1.352s] writing top-level names to ../../build/status_pulisher/status_pulisher.egg-info/top_level.txt
+[1.352s] writing manifest file '../../build/status_pulisher/status_pulisher.egg-info/SOURCES.txt'
+[1.353s] reading manifest file '../../build/status_pulisher/status_pulisher.egg-info/SOURCES.txt'
+[1.354s] adding license file 'LICENSE'
+[1.354s] writing manifest file '../../build/status_pulisher/status_pulisher.egg-info/SOURCES.txt'
+[1.354s] running build
+[1.354s] running build_py
+[1.354s] creating /home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_pulisher/build
+[1.354s] creating /home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_pulisher/build/lib
+[1.354s] creating /home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_pulisher/build/lib/status_pulisher
+[1.355s] copying status_pulisher/sys_status_pub.py -> /home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_pulisher/build/lib/status_pulisher
+[1.355s] copying status_pulisher/__init__.py -> /home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_pulisher/build/lib/status_pulisher
+[1.355s] running install
+[1.355s] running install_lib
+[1.355s] creating /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/lib/python3.10/site-packages/status_pulisher
+[1.356s] copying /home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_pulisher/build/lib/status_pulisher/sys_status_pub.py -> /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/lib/python3.10/site-packages/status_pulisher
+[1.356s] copying /home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_pulisher/build/lib/status_pulisher/__init__.py -> /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/lib/python3.10/site-packages/status_pulisher
+[1.356s] byte-compiling /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/lib/python3.10/site-packages/status_pulisher/sys_status_pub.py to sys_status_pub.cpython-310.pyc
+[1.357s] byte-compiling /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/lib/python3.10/site-packages/status_pulisher/__init__.py to __init__.cpython-310.pyc
+[1.357s] running install_data
+[1.357s] creating /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/share/ament_index
+[1.357s] creating /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/share/ament_index/resource_index
+[1.357s] creating /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/share/ament_index/resource_index/packages
+[1.357s] copying resource/status_pulisher -> /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/share/ament_index/resource_index/packages
+[1.357s] copying package.xml -> /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/share/status_pulisher
+[1.358s] running install_egg_info
+[1.359s] Copying ../../build/status_pulisher/status_pulisher.egg-info to /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/lib/python3.10/site-packages/status_pulisher-0.0.0-py3.10.egg-info
+[1.359s] running install_scripts
+[1.373s] Installing sys_status_pub script to /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/lib/status_pulisher
+[1.373s] writing list of installed files to '/home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_pulisher/install.log'
+[1.387s] Invoked command in '/home/nvidia/learn_ros/chapt3/topic_practice_ws/src/status_pulisher' returned '0': PYTHONPATH=/home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_pulisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_pulisher build --build-base /home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_pulisher/build install --record /home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_pulisher/install.log --install-scripts $base/lib/status_pulisher --single-version-externally-managed install_data

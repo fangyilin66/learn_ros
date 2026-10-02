@@ -1,0 +1,445 @@
+[0.000000] (-) TimerEvent: {}
+[0.000515] (status_interfaces) JobQueued: {'identifier': 'status_interfaces', 'dependencies': OrderedDict()}
+[0.000747] (status_display) JobQueued: {'identifier': 'status_display', 'dependencies': OrderedDict([('status_interfaces', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces')])}
+[0.000913] (status_pulisher) JobQueued: {'identifier': 'status_pulisher', 'dependencies': OrderedDict([('status_interfaces', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces')])}
+[0.000963] (status_interfaces) JobStarted: {'identifier': 'status_interfaces'}
+[0.010618] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'cmake'}
+[0.011351] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'build'}
+[0.011991] (status_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_interfaces', '--', '-j24', '-l24'], 'cwd': '/home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('GIT_ASKPASS', '/home/nvidia/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/src'), ('TERM_PROGRAM_VERSION', '1.140.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d0711766-2923-46d6-acf5-3591494c2781.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/nvidia/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/nvidia/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/nvidia/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'ubuntu-22.04.5'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nvidia'), ('NAME', 'LAPTOP-SARQANFQ'), ('WSL_INTEROP', '/run/WSL/436_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nvidia/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/nvidia/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/nvidia/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/phpstudy_pro/Extensions/php/php7.3.4nts:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/d/VMware/bin/:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/c/mingw64/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/VS Code/c/mingw64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Git/Git/cmd:/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/d/Anaconda:/mnt/d/Anaconda/Library/mingw-w64/bin:/mnt/d/Anaconda/Library/usr/bin:/mnt/d/Anaconda/Library/bin:/mnt/d/Anaconda/Scripts:/mnt/d/python/Scripts/:/mnt/d/python/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/d/VS Code/VSC/Microsoft VS Code/bin:/mnt/d/TensorRT/TensorRT-10.12.0.36.Windows.win10.cuda-12.9/TensorRT-10.12.0.36/bin:/mnt/d/Java/jdk_21/bin:/mnt/d/Java/jdk_21/jre/bin:/mnt/d/MatLab/Software/runtime/win64:/mnt/d/MatLab/Software/bin:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/d/Fastgithub_win-x64/fastgithub_win-x64:/mnt/d/Cmake/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files/JKI/VI Package Manager/support:/mnt/c/Program Files/WSL/:/mnt/c/Program Files/usbipd-win/:/mnt/d/phpstudy_pro/Extensions/php/php7.3.4nts:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/d/VMware/bin:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/d/c/mingw64/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit:/mnt/d/VS Code/c/mingw64/bin:/mnt/c/Program Files/dotnet:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2:/mnt/c/Program Files (x86)/NVIDIA Corporati:/mnt/d/VS Code/Microsoft VS Code/bin:/mnt/d/VS Code/c/DevEnv/GNU-tools-for-STM32/bin:/mnt/c/Users/user/AppData/Roaming/npm:/snap/bin:/home/nvidia/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/nvidia/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-69f5929c8e652777.txt'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/nvidia/.vscode-server/data/User/workspaceStorage/f76265c1140b8f1daddde15273cdf1d2/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ae7fa49529.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher:/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_interfaces'), ('COPILOT_DEBUG_NONCE', 'ae9fb24eb8ccc72e51e5027314b7eb88'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/lib/python3.10/site-packages:/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces:/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up')]), 'shell': False}
+[0.100122] (-) TimerEvent: {}
+[0.106195] (status_interfaces) StdoutLine: {'line': b'[  3%] Built target status_interfaces__cpp\n'}
+[0.106916] (status_interfaces) StdoutLine: {'line': b'[  6%] Built target status_interfaces__rs\n'}
+[0.110035] (status_interfaces) StdoutLine: {'line': b'[ 15%] Built target status_interfaces__rosidl_generator_c\n'}
+[0.111911] (status_interfaces) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_copy_status_interfaces\n'}
+[0.123626] (status_interfaces) StdoutLine: {'line': b'[ 31%] Built target status_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.123784] (status_interfaces) StdoutLine: {'line': b'[ 37%] Built target status_interfaces__rosidl_typesupport_cpp\n'}
+[0.123823] (status_interfaces) StdoutLine: {'line': b'[ 43%] Built target status_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.126069] (status_interfaces) StdoutLine: {'line': b'[ 53%] Built target status_interfaces__rosidl_typesupport_c\n'}
+[0.126309] (status_interfaces) StdoutLine: {'line': b'[ 62%] Built target status_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.126980] (status_interfaces) StdoutLine: {'line': b'[ 71%] Built target status_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.139389] (status_interfaces) StdoutLine: {'line': b'[ 71%] Built target status_interfaces\n'}
+[0.153471] (status_interfaces) StdoutLine: {'line': b'[ 75%] Built target status_interfaces__py\n'}
+[0.168363] (status_interfaces) StdoutLine: {'line': b'[ 81%] Built target status_interfaces__rosidl_generator_py\n'}
+[0.182433] (status_interfaces) StdoutLine: {'line': b'[100%] Built target status_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.182643] (status_interfaces) StdoutLine: {'line': b'[100%] Built target status_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.182717] (status_interfaces) StdoutLine: {'line': b'[100%] Built target status_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.200353] (-) TimerEvent: {}
+[0.249385] (status_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.249878] (status_interfaces) StdoutLine: {'line': b'writing status_interfaces.egg-info/PKG-INFO\n'}
+[0.250090] (status_interfaces) StdoutLine: {'line': b'writing dependency_links to status_interfaces.egg-info/dependency_links.txt\n'}
+[0.250309] (status_interfaces) StdoutLine: {'line': b'writing top-level names to status_interfaces.egg-info/top_level.txt\n'}
+[0.252446] (status_interfaces) StdoutLine: {'line': b"reading manifest file 'status_interfaces.egg-info/SOURCES.txt'\n"}
+[0.252813] (status_interfaces) StdoutLine: {'line': b"writing manifest file 'status_interfaces.egg-info/SOURCES.txt'\n"}
+[0.269132] (status_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_status_interfaces_egg\n'}
+[0.275867] (status_interfaces) CommandEnded: {'returncode': 0}
+[0.277169] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'install'}
+[0.282603] (status_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_interfaces'], 'cwd': '/home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('GIT_ASKPASS', '/home/nvidia/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/src'), ('TERM_PROGRAM_VERSION', '1.140.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d0711766-2923-46d6-acf5-3591494c2781.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/nvidia/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/nvidia/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/nvidia/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'ubuntu-22.04.5'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nvidia'), ('NAME', 'LAPTOP-SARQANFQ'), ('WSL_INTEROP', '/run/WSL/436_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nvidia/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/nvidia/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/nvidia/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/phpstudy_pro/Extensions/php/php7.3.4nts:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/d/VMware/bin/:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/c/mingw64/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/VS Code/c/mingw64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Git/Git/cmd:/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/d/Anaconda:/mnt/d/Anaconda/Library/mingw-w64/bin:/mnt/d/Anaconda/Library/usr/bin:/mnt/d/Anaconda/Library/bin:/mnt/d/Anaconda/Scripts:/mnt/d/python/Scripts/:/mnt/d/python/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/d/VS Code/VSC/Microsoft VS Code/bin:/mnt/d/TensorRT/TensorRT-10.12.0.36.Windows.win10.cuda-12.9/TensorRT-10.12.0.36/bin:/mnt/d/Java/jdk_21/bin:/mnt/d/Java/jdk_21/jre/bin:/mnt/d/MatLab/Software/runtime/win64:/mnt/d/MatLab/Software/bin:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/d/Fastgithub_win-x64/fastgithub_win-x64:/mnt/d/Cmake/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files/JKI/VI Package Manager/support:/mnt/c/Program Files/WSL/:/mnt/c/Program Files/usbipd-win/:/mnt/d/phpstudy_pro/Extensions/php/php7.3.4nts:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/d/VMware/bin:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/d/c/mingw64/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit:/mnt/d/VS Code/c/mingw64/bin:/mnt/c/Program Files/dotnet:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2:/mnt/c/Program Files (x86)/NVIDIA Corporati:/mnt/d/VS Code/Microsoft VS Code/bin:/mnt/d/VS Code/c/DevEnv/GNU-tools-for-STM32/bin:/mnt/c/Users/user/AppData/Roaming/npm:/snap/bin:/home/nvidia/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/nvidia/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-69f5929c8e652777.txt'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/nvidia/.vscode-server/data/User/workspaceStorage/f76265c1140b8f1daddde15273cdf1d2/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ae7fa49529.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher:/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_interfaces'), ('COPILOT_DEBUG_NONCE', 'ae9fb24eb8ccc72e51e5027314b7eb88'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/lib/python3.10/site-packages:/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces:/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up')]), 'shell': False}
+[0.288168] (status_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.288515] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/rosidl_interfaces/status_interfaces\n'}
+[0.288581] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[0.288635] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[0.288687] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.h\n'}
+[0.288721] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.288751] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[0.288779] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.h\n'}
+[0.288807] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.c\n'}
+[0.288835] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.h\n'}
+[0.288959] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.h\n'}
+[0.289105] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/library_path.sh\n'}
+[0.289281] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/library_path.dsv\n'}
+[0.289359] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so\n'}
+[0.289396] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[0.289450] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[0.289482] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.289563] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[0.289623] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h\n'}
+[0.289727] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.289817] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[0.289969] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[0.290115] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.hpp\n'}
+[0.290174] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.290229] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[0.290265] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.hpp\n'}
+[0.290296] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__traits.hpp\n'}
+[0.290381] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__builder.hpp\n'}
+[0.290418] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.hpp\n'}
+[0.290509] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[0.290602] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[0.290685] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.290736] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[0.290853] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.290952] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/dds_fastrtps\n'}
+[0.291009] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.291045] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[0.291074] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[0.291104] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.291133] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[0.291214] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.c\n'}
+[0.291282] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h\n'}
+[0.291451] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.291508] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so\n'}
+[0.291563] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[0.291607] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[0.291651] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[0.291745] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.cpp\n'}
+[0.291779] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.291811] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.292040] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.292228] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.sh\n'}
+[0.292341] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.dsv\n'}
+[0.292474] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info\n'}
+[0.292551] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.292683] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.292779] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.292868] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.293043] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces\n'}
+[0.293112] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg\n'}
+[0.293149] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status_s.c\n'}
+[0.293179] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status.py\n'}
+[0.293208] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/__init__.py\n'}
+[0.293236] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.293265] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/libstatus_interfaces__rosidl_generator_py.so\n'}
+[0.293292] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.293321] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.293348] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.293375] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.293405] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/__init__.py\n'}
+[0.293431] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.300831] (-) TimerEvent: {}
+[0.314974] (status_interfaces) StdoutLine: {'line': b"Listing '/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces'...\n"}
+[0.315552] (status_interfaces) StdoutLine: {'line': b"Listing '/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg'...\n"}
+[0.319035] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.319509] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.319877] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.320322] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so\n'}
+[0.320460] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust\n'}
+[0.320591] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/Cargo.toml\n'}
+[0.320838] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src\n'}
+[0.321053] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src/msg\n'}
+[0.321151] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src/msg/rmw.rs\n'}
+[0.321226] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src/lib.rs\n'}
+[0.321279] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src/msg.rs\n'}
+[0.321341] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/build.rs\n'}
+[0.321488] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.idl\n'}
+[0.321565] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.msg\n'}
+[0.321618] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/package_run_dependencies/status_interfaces\n'}
+[0.321651] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/parent_prefix_path/status_interfaces\n'}
+[0.321680] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.sh\n'}
+[0.321714] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.321846] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/path.sh\n'}
+[0.321895] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/path.dsv\n'}
+[0.321928] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.bash\n'}
+[0.321956] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.sh\n'}
+[0.321985] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.zsh\n'}
+[0.322019] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.dsv\n'}
+[0.322046] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/package.dsv\n'}
+[0.322072] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/packages/status_interfaces\n'}
+[0.322099] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.322127] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.322206] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.322391] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.322610] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.322942] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.323022] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.323301] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.323455] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.323678] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.323786] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.324055] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.324161] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.324501] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.324585] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.324862] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.325037] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.325257] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.325401] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.325456] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.325488] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.325523] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.325551] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.325579] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.325606] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[0.325633] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig.cmake\n'}
+[0.325660] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig-version.cmake\n'}
+[0.325688] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/package.xml\n'}
+[0.327469] (status_interfaces) CommandEnded: {'returncode': 0}
+[0.348313] (status_interfaces) JobEnded: {'identifier': 'status_interfaces', 'rc': 0}
+[0.349793] (status_display) JobStarted: {'identifier': 'status_display'}
+[0.351885] (status_pulisher) JobStarted: {'identifier': 'status_pulisher'}
+[0.400949] (-) TimerEvent: {}
+[0.502274] (-) TimerEvent: {}
+[0.602712] (-) TimerEvent: {}
+[0.645465] (status_display) JobProgress: {'identifier': 'status_display', 'progress': 'cmake'}
+[0.646761] (status_display) Command: {'cmd': ['/usr/bin/cmake', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/src/status_display', '-DCMAKE_INSTALL_PREFIX=/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_display'], 'cwd': '/home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_display', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('GIT_ASKPASS', '/home/nvidia/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/src'), ('TERM_PROGRAM_VERSION', '1.140.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d0711766-2923-46d6-acf5-3591494c2781.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/nvidia/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/nvidia/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/nvidia/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'ubuntu-22.04.5'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nvidia'), ('NAME', 'LAPTOP-SARQANFQ'), ('WSL_INTEROP', '/run/WSL/436_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nvidia/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/nvidia/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/nvidia/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/phpstudy_pro/Extensions/php/php7.3.4nts:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/d/VMware/bin/:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/c/mingw64/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/VS Code/c/mingw64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Git/Git/cmd:/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/d/Anaconda:/mnt/d/Anaconda/Library/mingw-w64/bin:/mnt/d/Anaconda/Library/usr/bin:/mnt/d/Anaconda/Library/bin:/mnt/d/Anaconda/Scripts:/mnt/d/python/Scripts/:/mnt/d/python/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/d/VS Code/VSC/Microsoft VS Code/bin:/mnt/d/TensorRT/TensorRT-10.12.0.36.Windows.win10.cuda-12.9/TensorRT-10.12.0.36/bin:/mnt/d/Java/jdk_21/bin:/mnt/d/Java/jdk_21/jre/bin:/mnt/d/MatLab/Software/runtime/win64:/mnt/d/MatLab/Software/bin:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/d/Fastgithub_win-x64/fastgithub_win-x64:/mnt/d/Cmake/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files/JKI/VI Package Manager/support:/mnt/c/Program Files/WSL/:/mnt/c/Program Files/usbipd-win/:/mnt/d/phpstudy_pro/Extensions/php/php7.3.4nts:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/d/VMware/bin:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/d/c/mingw64/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit:/mnt/d/VS Code/c/mingw64/bin:/mnt/c/Program Files/dotnet:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2:/mnt/c/Program Files (x86)/NVIDIA Corporati:/mnt/d/VS Code/Microsoft VS Code/bin:/mnt/d/VS Code/c/DevEnv/GNU-tools-for-STM32/bin:/mnt/c/Users/user/AppData/Roaming/npm:/snap/bin:/home/nvidia/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/nvidia/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-69f5929c8e652777.txt'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/nvidia/.vscode-server/data/User/workspaceStorage/f76265c1140b8f1daddde15273cdf1d2/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ae7fa49529.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher:/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_display'), ('COPILOT_DEBUG_NONCE', 'ae9fb24eb8ccc72e51e5027314b7eb88'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/lib/python3.10/site-packages:/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces:/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up')]), 'shell': False}
+[0.702886] (-) TimerEvent: {}
+[0.803254] (-) TimerEvent: {}
+[0.903630] (-) TimerEvent: {}
+[1.004304] (-) TimerEvent: {}
+[1.069020] (status_display) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.105029] (-) TimerEvent: {}
+[1.205349] (-) TimerEvent: {}
+[1.305680] (-) TimerEvent: {}
+[1.407405] (-) TimerEvent: {}
+[1.508162] (status_pulisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/status_pulisher', 'build', '--build-base', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_pulisher/build', 'install', '--record', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_pulisher/install.log', '--install-scripts', '$base/lib/status_pulisher', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nvidia/learn_ros/chapt3/topic_practice_ws/src/status_pulisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('GIT_ASKPASS', '/home/nvidia/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/src'), ('TERM_PROGRAM_VERSION', '1.140.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d0711766-2923-46d6-acf5-3591494c2781.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/nvidia/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/nvidia/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/nvidia/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'ubuntu-22.04.5'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nvidia'), ('NAME', 'LAPTOP-SARQANFQ'), ('WSL_INTEROP', '/run/WSL/436_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nvidia/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/nvidia/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/nvidia/.vscode-server/bin/07f806f999227108933c2e30515b26eecc1fda74/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/phpstudy_pro/Extensions/php/php7.3.4nts:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/d/VMware/bin/:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/c/mingw64/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/VS Code/c/mingw64/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Git/Git/cmd:/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/d/Anaconda:/mnt/d/Anaconda/Library/mingw-w64/bin:/mnt/d/Anaconda/Library/usr/bin:/mnt/d/Anaconda/Library/bin:/mnt/d/Anaconda/Scripts:/mnt/d/python/Scripts/:/mnt/d/python/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/d/VS Code/VSC/Microsoft VS Code/bin:/mnt/d/TensorRT/TensorRT-10.12.0.36.Windows.win10.cuda-12.9/TensorRT-10.12.0.36/bin:/mnt/d/Java/jdk_21/bin:/mnt/d/Java/jdk_21/jre/bin:/mnt/d/MatLab/Software/runtime/win64:/mnt/d/MatLab/Software/bin:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/d/Fastgithub_win-x64/fastgithub_win-x64:/mnt/d/Cmake/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files/JKI/VI Package Manager/support:/mnt/c/Program Files/WSL/:/mnt/c/Program Files/usbipd-win/:/mnt/d/phpstudy_pro/Extensions/php/php7.3.4nts:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/d/VMware/bin:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/d/c/mingw64/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit:/mnt/d/VS Code/c/mingw64/bin:/mnt/c/Program Files/dotnet:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2:/mnt/c/Program Files (x86)/NVIDIA Corporati:/mnt/d/VS Code/Microsoft VS Code/bin:/mnt/d/VS Code/c/DevEnv/GNU-tools-for-STM32/bin:/mnt/c/Users/user/AppData/Roaming/npm:/snap/bin:/home/nvidia/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/nvidia/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-69f5929c8e652777.txt'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/nvidia/.vscode-server/data/User/workspaceStorage/f76265c1140b8f1daddde15273cdf1d2/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ae7fa49529.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher:/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_pulisher'), ('COPILOT_DEBUG_NONCE', 'ae9fb24eb8ccc72e51e5027314b7eb88'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_pulisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/lib/python3.10/site-packages:/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/lib/python3.10/site-packages:/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up')]), 'shell': False}
+[1.509022] (-) TimerEvent: {}
+[1.610378] (-) TimerEvent: {}
+[1.633638] (status_pulisher) StdoutLine: {'line': b'running egg_info\n'}
+[1.634168] (status_pulisher) StdoutLine: {'line': b'writing ../../build/status_pulisher/status_pulisher.egg-info/PKG-INFO\n'}
+[1.634336] (status_pulisher) StdoutLine: {'line': b'writing dependency_links to ../../build/status_pulisher/status_pulisher.egg-info/dependency_links.txt\n'}
+[1.634451] (status_pulisher) StdoutLine: {'line': b'writing entry points to ../../build/status_pulisher/status_pulisher.egg-info/entry_points.txt\n'}
+[1.634664] (status_pulisher) StdoutLine: {'line': b'writing requirements to ../../build/status_pulisher/status_pulisher.egg-info/requires.txt\n'}
+[1.634724] (status_pulisher) StdoutLine: {'line': b'writing top-level names to ../../build/status_pulisher/status_pulisher.egg-info/top_level.txt\n'}
+[1.635590] (status_pulisher) StdoutLine: {'line': b"reading manifest file '../../build/status_pulisher/status_pulisher.egg-info/SOURCES.txt'\n"}
+[1.635783] (status_pulisher) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.636034] (status_pulisher) StdoutLine: {'line': b"writing manifest file '../../build/status_pulisher/status_pulisher.egg-info/SOURCES.txt'\n"}
+[1.636199] (status_pulisher) StdoutLine: {'line': b'running build\n'}
+[1.636241] (status_pulisher) StdoutLine: {'line': b'running build_py\n'}
+[1.636333] (status_pulisher) StdoutLine: {'line': b'running install\n'}
+[1.636491] (status_pulisher) StdoutLine: {'line': b'running install_lib\n'}
+[1.637126] (status_pulisher) StdoutLine: {'line': b'running install_data\n'}
+[1.637301] (status_pulisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.638239] (status_pulisher) StdoutLine: {'line': b"removing '/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/lib/python3.10/site-packages/status_pulisher-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.638522] (status_pulisher) StdoutLine: {'line': b'Copying ../../build/status_pulisher/status_pulisher.egg-info to /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/lib/python3.10/site-packages/status_pulisher-0.0.0-py3.10.egg-info\n'}
+[1.639260] (status_pulisher) StdoutLine: {'line': b'running install_scripts\n'}
+[1.652651] (status_pulisher) StdoutLine: {'line': b'Installing sys_status_pub script to /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/lib/status_pulisher\n'}
+[1.653095] (status_pulisher) StdoutLine: {'line': b"writing list of installed files to '/home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_pulisher/install.log'\n"}
+[1.666848] (status_pulisher) CommandEnded: {'returncode': 0}
+[1.671687] (status_pulisher) JobEnded: {'identifier': 'status_pulisher', 'rc': 0}
+[1.710665] (-) TimerEvent: {}
+[1.812279] (-) TimerEvent: {}
+[1.916589] (-) TimerEvent: {}
+[2.020664] (-) TimerEvent: {}
+[2.121659] (-) TimerEvent: {}
+[2.222050] (-) TimerEvent: {}
+[2.322461] (-) TimerEvent: {}
+[2.424988] (-) TimerEvent: {}
+[2.529166] (-) TimerEvent: {}
+[2.541576] (status_display) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.629286] (-) TimerEvent: {}
+[2.733658] (-) TimerEvent: {}
+[2.834694] (-) TimerEvent: {}
+[2.938823] (-) TimerEvent: {}
+[3.042981] (-) TimerEvent: {}
+[3.146534] (-) TimerEvent: {}
+[3.250340] (-) TimerEvent: {}
+[3.352838] (-) TimerEvent: {}
+[3.457168] (-) TimerEvent: {}
+[3.557555] (-) TimerEvent: {}
+[3.580292] (status_display) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.657710] (-) TimerEvent: {}
+[3.760132] (-) TimerEvent: {}
+[3.860745] (-) TimerEvent: {}
+[3.959403] (status_display) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.961134] (-) TimerEvent: {}
+[3.963623] (status_display) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.970384] (status_display) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.971361] (status_display) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.974843] (status_display) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.061600] (-) TimerEvent: {}
+[4.165084] (-) TimerEvent: {}
+[4.269431] (-) TimerEvent: {}
+[4.365493] (status_display) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.369746] (-) TimerEvent: {}
+[4.369952] (status_display) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.370037] (status_display) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.370174] (status_display) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.379677] (status_display) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.472963] (-) TimerEvent: {}
+[4.479390] (status_display) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.558484] (status_display) StdoutLine: {'line': b'-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.574141] (-) TimerEvent: {}
+[4.674909] (-) TimerEvent: {}
+[4.779184] (-) TimerEvent: {}
+[4.880390] (-) TimerEvent: {}
+[4.927631] (status_display) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.932627] (status_display) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.941980] (status_display) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.955592] (status_display) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.971169] (status_display) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.981084] (-) TimerEvent: {}
+[5.019442] (status_display) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.022772] (status_display) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.081178] (-) TimerEvent: {}
+[5.183593] (-) TimerEvent: {}
+[5.286172] (-) TimerEvent: {}
+[5.387259] (-) TimerEvent: {}
+[5.491469] (-) TimerEvent: {}
+[5.592170] (-) TimerEvent: {}
+[5.692795] (-) TimerEvent: {}
+[5.793141] (-) TimerEvent: {}
+[5.898478] (-) TimerEvent: {}
+[6.000692] (-) TimerEvent: {}
+[6.101149] (-) TimerEvent: {}
+[6.201491] (-) TimerEvent: {}
+[6.305206] (-) TimerEvent: {}
+[6.406219] (-) TimerEvent: {}
+[6.514721] (-) TimerEvent: {}
+[6.623249] (-) TimerEvent: {}
+[6.726458] (-) TimerEvent: {}
+[6.834558] (-) TimerEvent: {}
+[6.935057] (-) TimerEvent: {}
+[7.039939] (-) TimerEvent: {}
+[7.140518] (-) TimerEvent: {}
+[7.240862] (-) TimerEvent: {}
+[7.347420] (-) TimerEvent: {}
+[7.447955] (-) TimerEvent: {}
+[7.548668] (-) TimerEvent: {}
+[7.649148] (-) TimerEvent: {}
+[7.749481] (-) TimerEvent: {}
+[7.849841] (-) TimerEvent: {}
+[7.950278] (-) TimerEvent: {}
+[8.050702] (-) TimerEvent: {}
+[8.151151] (-) TimerEvent: {}
+[8.255004] (-) TimerEvent: {}
+[8.359202] (-) TimerEvent: {}
+[8.463077] (-) TimerEvent: {}
+[8.563646] (-) TimerEvent: {}
+[8.664196] (-) TimerEvent: {}
+[8.665937] (status_display) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[8.764391] (-) TimerEvent: {}
+[8.872347] (-) TimerEvent: {}
+[8.980997] (-) TimerEvent: {}
+[9.081346] (-) TimerEvent: {}
+[9.181736] (-) TimerEvent: {}
+[9.282173] (-) TimerEvent: {}
+[9.390748] (-) TimerEvent: {}
+[9.498915] (-) TimerEvent: {}
+[9.599412] (-) TimerEvent: {}
+[9.699747] (-) TimerEvent: {}
+[9.800105] (-) TimerEvent: {}
+[9.904415] (-) TimerEvent: {}
+[10.008861] (-) TimerEvent: {}
+[10.115582] (-) TimerEvent: {}
+[10.224162] (-) TimerEvent: {}
+[10.327465] (-) TimerEvent: {}
+[10.436086] (-) TimerEvent: {}
+[10.544385] (-) TimerEvent: {}
+[10.646670] (-) TimerEvent: {}
+[10.749139] (-) TimerEvent: {}
+[10.849486] (-) TimerEvent: {}
+[10.955335] (-) TimerEvent: {}
+[11.063866] (-) TimerEvent: {}
+[11.167429] (-) TimerEvent: {}
+[11.267849] (-) TimerEvent: {}
+[11.368290] (-) TimerEvent: {}
+[11.474664] (-) TimerEvent: {}
+[11.575164] (-) TimerEvent: {}
+[11.679405] (-) TimerEvent: {}
+[11.779829] (-) TimerEvent: {}
+[11.880193] (-) TimerEvent: {}
+[11.980520] (-) TimerEvent: {}
+[12.081129] (-) TimerEvent: {}
+[12.185304] (-) TimerEvent: {}
+[12.285773] (-) TimerEvent: {}
+[12.388856] (-) TimerEvent: {}
+[12.496883] (-) TimerEvent: {}
+[12.598593] (-) TimerEvent: {}
+[12.661380] (status_display) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[12.701507] (-) TimerEvent: {}
+[12.801830] (-) TimerEvent: {}
+[12.907930] (-) TimerEvent: {}
+[13.010208] (-) TimerEvent: {}
+[13.110534] (-) TimerEvent: {}
+[13.210901] (-) TimerEvent: {}
+[13.319575] (-) TimerEvent: {}
+[13.421470] (-) TimerEvent: {}
+[13.522581] (-) TimerEvent: {}
+[13.623352] (-) TimerEvent: {}
+[13.723712] (-) TimerEvent: {}
+[13.832315] (-) TimerEvent: {}
+[13.932950] (-) TimerEvent: {}
+[14.036603] (-) TimerEvent: {}
+[14.136969] (-) TimerEvent: {}
+[14.242656] (-) TimerEvent: {}
+[14.343830] (-) TimerEvent: {}
+[14.444209] (-) TimerEvent: {}
+[14.552841] (-) TimerEvent: {}
+[14.654570] (-) TimerEvent: {}
+[14.754949] (-) TimerEvent: {}
+[14.860474] (-) TimerEvent: {}
+[14.962808] (-) TimerEvent: {}
+[15.071393] (-) TimerEvent: {}
+[15.173068] (-) TimerEvent: {}
+[15.281401] (-) TimerEvent: {}
+[15.388432] (-) TimerEvent: {}
+[15.497070] (-) TimerEvent: {}
+[15.605226] (-) TimerEvent: {}
+[15.713579] (-) TimerEvent: {}
+[15.814622] (-) TimerEvent: {}
+[15.923109] (-) TimerEvent: {}
+[16.024379] (-) TimerEvent: {}
+[16.130124] (-) TimerEvent: {}
+[16.238591] (-) TimerEvent: {}
+[16.341762] (-) TimerEvent: {}
+[16.450159] (-) TimerEvent: {}
+[16.558592] (-) TimerEvent: {}
+[16.667064] (-) TimerEvent: {}
+[16.775584] (-) TimerEvent: {}
+[16.881485] (-) TimerEvent: {}
+[16.989888] (-) TimerEvent: {}
+[17.098397] (-) TimerEvent: {}
+[17.207056] (-) TimerEvent: {}
+[17.308805] (-) TimerEvent: {}
+[17.417443] (-) TimerEvent: {}
+[17.518196] (-) TimerEvent: {}
+[17.618519] (-) TimerEvent: {}
+[17.720327] (-) TimerEvent: {}
+[17.821271] (-) TimerEvent: {}
+[17.923294] (-) TimerEvent: {}
+[18.023712] (-) TimerEvent: {}
+[18.125301] (-) TimerEvent: {}
+[18.227027] (-) TimerEvent: {}
+[18.334858] (-) TimerEvent: {}
+[18.443354] (-) TimerEvent: {}
+[18.543697] (-) TimerEvent: {}
+[18.644085] (-) TimerEvent: {}
+[18.748567] (-) TimerEvent: {}
+[18.848854] (-) TimerEvent: {}
+[18.949184] (-) TimerEvent: {}
+[19.053584] (-) TimerEvent: {}
+[19.158011] (-) TimerEvent: {}
+[19.259813] (-) TimerEvent: {}
+[19.360165] (-) TimerEvent: {}
+[19.461439] (-) TimerEvent: {}
+[19.561808] (-) TimerEvent: {}
+[19.666241] (-) TimerEvent: {}
+[19.766631] (-) TimerEvent: {}
+[19.867038] (-) TimerEvent: {}
+[19.971246] (-) TimerEvent: {}
+[20.003122] (status_display) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[20.013610] (status_display) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[20.071692] (-) TimerEvent: {}
+[20.175934] (-) TimerEvent: {}
+[20.280184] (-) TimerEvent: {}
+[20.384187] (-) TimerEvent: {}
+[20.416430] (status_display) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[20.416737] (status_display) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[20.484884] (-) TimerEvent: {}
+[20.585810] (-) TimerEvent: {}
+[20.686239] (-) TimerEvent: {}
+[20.786737] (-) TimerEvent: {}
+[20.870981] (status_display) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[20.871759] (status_display) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[20.887009] (-) TimerEvent: {}
+[20.942752] (status_display) StdoutLine: {'line': b'-- Found status_interfaces: 0.0.0 (/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake)\n'}
+[20.987297] (-) TimerEvent: {}
+[21.087841] (-) TimerEvent: {}
+[21.188478] (-) TimerEvent: {}
+[21.242452] (status_display) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[21.292245] (-) TimerEvent: {}
+[21.295243] (status_display) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:30 (install):\n'}
+[21.295594] (status_display) StderrLine: {'line': b'  install does not recognize sub-command TAEFETS\n'}
+[21.295655] (status_display) StderrLine: {'line': b'\n'}
+[21.295687] (status_display) StderrLine: {'line': b'\x1b[0m\n'}
+[21.300651] (status_display) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[21.300931] (status_display) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[21.300989] (status_display) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[21.301810] (status_display) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[21.302801] (status_display) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[21.302911] (status_display) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[21.303517] (status_display) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[21.305139] (status_display) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[21.305225] (status_display) StdoutLine: {'line': b'See also "/home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_display/CMakeFiles/CMakeOutput.log".\n'}
+[21.311879] (status_display) CommandEnded: {'returncode': 1}
+[21.327098] (status_display) JobEnded: {'identifier': 'status_display', 'rc': 1}
+[21.337864] (-) EventReactorShutdown: {}

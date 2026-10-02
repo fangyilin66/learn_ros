@@ -1,0 +1,10 @@
+[0.409s] Invoking command in '/home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_display': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_display -- -j24 -l24
+[0.436s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o[0m
+[0.441s] [01m[K/home/nvidia/learn_ros/chapt3/topic_practice_ws/src/status_display/src/hello_qt.cpp:1:10:[m[K [01;31m[Kfatal error: [m[KQApplication: 没有那个文件或目录
+[0.441s]     1 | #include [01;31m[K<QApplication>[m[K
+[0.441s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.441s] compilation terminated.
+[0.441s] gmake[2]: *** [CMakeFiles/hello_qt.dir/build.make:76：CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o] 错误 1
+[0.442s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/hello_qt.dir/all] 错误 2
+[0.442s] gmake: *** [Makefile:146：all] 错误 2
+[0.443s] Invoked command in '/home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_display' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_display -- -j24 -l24

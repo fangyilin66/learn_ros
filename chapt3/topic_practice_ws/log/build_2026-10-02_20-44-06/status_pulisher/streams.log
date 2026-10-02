@@ -1,0 +1,22 @@
+[0.965s] Invoking command in '/home/nvidia/learn_ros/chapt3/topic_practice_ws/src/status_pulisher': PYTHONPATH=/home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_pulisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_pulisher build --build-base /home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_pulisher/build install --record /home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_pulisher/install.log --install-scripts $base/lib/status_pulisher --single-version-externally-managed install_data
+[1.089s] running egg_info
+[1.089s] writing ../../build/status_pulisher/status_pulisher.egg-info/PKG-INFO
+[1.089s] writing dependency_links to ../../build/status_pulisher/status_pulisher.egg-info/dependency_links.txt
+[1.090s] writing entry points to ../../build/status_pulisher/status_pulisher.egg-info/entry_points.txt
+[1.090s] writing requirements to ../../build/status_pulisher/status_pulisher.egg-info/requires.txt
+[1.090s] writing top-level names to ../../build/status_pulisher/status_pulisher.egg-info/top_level.txt
+[1.091s] reading manifest file '../../build/status_pulisher/status_pulisher.egg-info/SOURCES.txt'
+[1.091s] adding license file 'LICENSE'
+[1.091s] writing manifest file '../../build/status_pulisher/status_pulisher.egg-info/SOURCES.txt'
+[1.091s] running build
+[1.092s] running build_py
+[1.092s] running install
+[1.092s] running install_lib
+[1.093s] running install_data
+[1.093s] running install_egg_info
+[1.094s] removing '/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/lib/python3.10/site-packages/status_pulisher-0.0.0-py3.10.egg-info' (and everything under it)
+[1.094s] Copying ../../build/status_pulisher/status_pulisher.egg-info to /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/lib/python3.10/site-packages/status_pulisher-0.0.0-py3.10.egg-info
+[1.094s] running install_scripts
+[1.109s] Installing sys_status_pub script to /home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/lib/status_pulisher
+[1.109s] writing list of installed files to '/home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_pulisher/install.log'
+[1.123s] Invoked command in '/home/nvidia/learn_ros/chapt3/topic_practice_ws/src/status_pulisher' returned '0': PYTHONPATH=/home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_pulisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/learn_ros/chapt3/topic_practice_ws/install/status_pulisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_pulisher build --build-base /home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_pulisher/build install --record /home/nvidia/learn_ros/chapt3/topic_practice_ws/build/status_pulisher/install.log --install-scripts $base/lib/status_pulisher --single-version-externally-managed install_data
